@@ -1,9 +1,9 @@
 -module(first).
 -export([double/1, mult/2, fac/1, convert/2, convert_length/1]).
-% 参数大写
+% 参数第一个字母大写
 % 导出时 / 后面的数字是参数数量
 % 如果函数名冲突，需要加上 module_name:function()
-
+say() -> io:format("hello erlang !").
 mult(X, Y) -> 
   X * Y.
 
